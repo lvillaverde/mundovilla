@@ -1,0 +1,25 @@
+.headerMenu {
+	max-width: 383px;
+	filter : none;
+}
+.headerOptions {
+	position: absolute;
+}
+
+body div header div fieldset button {
+	width: 22px;
+	height: 22px;
+	margin-top:0;
+	margin-left: 5px;
+}
+
+.redesSociales a {
+	font-size: 28px;
+	display:inline-block;
+	margin-top:5px;
+}
+
+.noticiasPrincipales article button, .noticiasSecundarias div button { padding-left: 3px; padding-top: 2px;}
+
+.verResultados {width: 90px !important;}	
+.encuestaVotar {width: 40px !important;}

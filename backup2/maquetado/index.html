@@ -1,0 +1,273 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title>Mundo Villa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.5, maximum-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+	<link href='css/style.css' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+	<script src="js/modernizr.custom.30025.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/jquery.zweatherfeed.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<!--[if IE 8]>
+		<link href='css/style-ie8.css' rel='stylesheet' type='text/css'>
+	<![endif]-->
+
+	<!--[if gte IE 9]>
+		<link href='css/style-ie9.css' rel='stylesheet' type='text/css'>
+	 <![endif]-->
+
+	<!--[if (lt IE 9) & (!IEMobile)]>
+	 	<script src="js/respond.min.js"></script>
+	 <![endif]-->
+</head>
+<body>
+
+<div>
+	<header>
+		<nav class="headerMenu">
+			<ul>
+				<li><button>Lo más visto</button></li>
+				<li><button>Edición impresa</button></li>
+				<li><button>Quiénes somos</button></li>
+				<li class="ultimoItem"><button>Voluntariado</button></li>
+			</ul>
+		</nav>
+		<div class="headerOptions">
+			<fieldset>
+				<input>
+				<button><span class="icon-search"></span></button>
+			</fieldset>
+			<div class="redesSociales">
+				<a class="icon-facebook"></a>
+				<a class="icon-twitter"></a>
+				<a class="icon-mail"></a>
+				<a class="icon-rss"></a>
+			</div>
+		</div>
+		<div class="MundoVilla">
+			<div class="headerLogo">
+				<figure></figure>
+			</div>
+			<p class="headerFecha">Buenos Aires, República Argentina - Lunes 16 de Septiembre de 2013</p>
+		</div>
+		<div id="feedClima"></div>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><button>Cultura</button></li>
+			<li><span>■</span><button>Deportes</button></li>
+			<li><span>■</span><button>Urbanización</button></li>
+			<li><span>■</span><button>Salud</button></li>
+			<li><span>■</span><button>Sociedad</button></li>
+			<li><span>■</span><button>Colectividades</button></li>
+			<li><span>■</span><button>Perfil</button></li>
+			<li><span>■</span><button>Multimedia</button></li>
+		</ul>
+	</nav>
+
+	<nav class="menuMovil">
+		<a id="menuMovilCategorias"><span class="icon-arrow-right" id="flechaMenu"></span>Menu</a>
+		<ul id="menuMovilCategoriasSubmenu" class="submenu">
+			<li>Cultura</li>
+			<li>Deportes</li>
+			<li>Urbanización</li>
+			<li>Salud</li>
+			<li>Sociedad</li>
+			<li>Colectividades</li>
+			<li>Perfil</li>
+			<li>Multimedia</li>
+		</ul>
+	</nav>
+
+	<nav class="menuHeaderMovil">
+		<a id="menuMovilSecciones">
+			<span class="icon-arrow-right"></span>
+			Categorías
+		</a>
+		<ul id="menuMovilSeccionesSubmenu" class="submenu">
+			<li>Lo más visto</li>
+			<li>Edición impresa</li>
+			<li>Quiénes somos</li>
+			<li>Voluntariado</li>
+		</ul>
+	</nav>
+	
+	<section>
+		<div class="noticiasPrincipales">
+			<!-- <div class="linea2">
+				<article class="mod3col">
+					<h2 class="ultimoMomento">Último momento</h2>
+					<figure>
+						<img src="http://mundovilla.com/uploads/854423531.0.jpg">
+					</figure>
+					<h3>Recapturaron al asesino de nuestro compañero Adams Ledezma, fundador de Mundo Villa TV</h3>
+					<p>Cristian Cristaldo Espíndola (22) fue recapturado por la Policía Bonaerense en la Municipalidad de Lanús. El año pasado había sido condenado por el asesinato  de nuestro compañero y fundador del primer canal villero Mundo Villa TV, Adams Ledezma.</p>
+					<button><span class="icon-arrow-new"></span></button>
+				</article>
+			</div> -->
+			<div class="linea1">
+				<article class="noticiaPrincipal mod2col" id="noticia1">
+					<h2 class="ultimoMomento">Último momento</h2>
+					<figure>
+						<img class="lazy" src="http://mundovilla.com/uploads/1604957147.0.jpg" />
+					</figure>
+					<span class="epigrafe">Comentario</span>
+					<h3>Comenzó el rodaje del taller de cine de "La Loma" de Villa 21 Barracas</h3>
+					<p>Comenzó el rodaje del mediometraje del Taller de Cine “La Loma”, que el equipo de audiovisual del Movimiento Evita Capital coordina conjuntamente con la Cooperativa de Producción Audiovisual Incorregibles y el Centro Cultural "La Loma" en la Villa 21-24 de Barracas. La historia, pensada a partir de un trabajo colectivo, es actuada y filmada por los mismos chicos que asisten al taller, y cuenta con la participación de vecinos y compañeros que se acercaron al rodaje.</p>
+					<button><span class="icon-arrow-new"></span></button>
+				</article>
+				<article class="noticiaPrincipal mod1col" id="noticia2">
+					<h2 class="ultimoMomento">Último momento</h2>
+					<figure>
+						<img class="lazy" src="http://www.mundovilla.com/uploads/2066548241.0.jpg" />
+					</figure>
+					<span class="epigrafe">Comentario</span>
+					<h3>Elecciones 2013: ¿Qué pasó con las PASO?</h3>
+					<p>Carlos García dio su versión de lo sucedido en los momentos previos a la explosión: aseguró que en su celular tiene registradas...</p>
+					<button><span class="icon-arrow-new"></span></button>
+				</article>
+			</div>
+		</div>
+		<div class="noticiasSecundarias" id="grillado">
+			<div class="grid-sizer"></div>
+			<!-- <div class="modElement modOtro">
+				<embed type="application/x-shockwave-flash" src="http://cdn1.worldtv.com/build/2920-07/flash/embed-player-modern.swf" width="100%" style="height:auto;" id="flexApplication" name="flexApplication" bgcolor="#FFFFFF" quality="high" allowscriptaccess="always" movie="http://cdn1.worldtv.com/build/2920-07/flash/embed-player-modern.swf" allowfullscreen="true" flashvars="domain=http%3A%2F%2Fembed.worldtv.com%2F&amp;rootUrlPath=http%3A%2F%2Fembed.worldtv.com%2F&amp;staticRootUrlPath=http%3A%2F%2Fcdn1.worldtv.com%2Fbuild%2F2920-07%2F&amp;channelId=1519525&amp;currentLang=es&amp;buildId=2920-07&amp;vid=&amp;autoPlay=false">
+			</div> -->
+			<div class="modElement">
+				<div class="elementNoticia">
+				<h2>Continúa el acampe por vecinos de diferentes villas en Edesur y Edenor</h2>
+				<figure>
+					<span class="spanUrbanidad">Urbanidad</span>
+					<img src="http://mundovilla.com/uploads/1959020143.0.jpg" />
+				</figure>
+				<p>Buenos Aires 22 de Agosto de 2013 - Los vecinos de diferente villas pertenecientes a la Corriente Villera Independiente  continúan acampando en las oficinas de Edesur y Edenor para denunciar "constantes cortes de luz" en villas y "muertes ocasionadas" por deficiencias en el servicio.</p>
+				<button><span class="icon-arrow-new"></span></button>
+				</div>
+			</div>
+			<div class="modElement">
+				<div class="modBanner">
+					<img class="elementBanner lazy" style="display:inline-block; width:100%" src="img/banners/defensoria.png" >
+				</div>
+			</div>
+			<div class="modElement">
+				<div class="elementNoticia">
+					<h2>Continúa el acampe por vecinos</h2>
+					<figure>
+						<span class="spanUrbanidad">Urbanidad</span>
+						<img src="http://mundovilla.com/uploads/1503422347.0.jpg" />
+					</figure>
+					<span class="epigrafe">Comentario</span>
+					<p>Buenos Aires 22 de Agosto de 2013 - Los vecinos de diferente villas pertenecientes a la Corriente Villera Independiente  continúan acampando en las...</p>
+					<button><span class="icon-arrow-new"></span></button>
+				</div>
+			</div>
+			<div class="modElement">
+				<div class="elementNoticia">
+					<h2>Continúa el acampe por vecinos acampe por vecinos</h2>
+					<figure>
+						<span class="spanUrbanidad">Urbanidad</span>
+						<img src="http://mundovilla.com/uploads/67254525.0.jpg" />
+					</figure>
+					<p>Buenos Aires 22 de Agosto de 2013 - Los vecinos de diferente villas pertenecientes a la Corriente Villera Independiente  continúan acampando en las continúan acampando en las oficinas de Edesur...</p>
+					<button><span class="icon-arrow-new"></span></button>
+				</div>
+			</div>
+			<div class="modElement">
+				<div class="elementEncuesta">
+					<h2>Encuesta</h2>
+					<p>¿Considera que con mas fuerzas de seguridad habrá menos inseguridad?</p>
+					<fieldset class="encuesta">
+						<input type = "radio" /><label>Si</label><br>
+						<input type = "radio" /><label>No</label><br>
+						<input type = "radio" /><label>No sabe / no contesta</label>
+						<button class="encuestaVotar">Votar</button>
+						<button class="verResultados">Ver resultados</button>
+					</fieldset>
+				</div>
+			</div>
+			<div class="modElement">
+				<div class="modBanner">
+					<img class="elementBanner" src="img/banners/orientacion.png" height="89" style="display:inline-block; width:100%">
+				</div>
+			</div>
+			<div class="modElement">
+				<div class="elementNoticia">
+					<h2>Continúa el acampe por vecinos acampe por vecinos</h2>
+					<figure>
+						<span class="spanUrbanidad">Urbanidad</span>
+						<img src="http://mundovilla.com/uploads/15583306.0.jpg" />
+					</figure>
+					<p>Buenos Aires 22 de Agosto de 2013 - Los vecinos de diferente villas pertenecientes a la Corriente Villera Independiente  continúan acampando en las continúan acampando en las oficinas de Edesur...</p>
+					<button><span class="icon-arrow-new"></span></button>
+				</div>
+			</div>
+			<div class="modElement">
+				<div class="elementNoticia">
+					<h2>Continúa el acampe por vecinos</h2>
+					<figure>
+						<span class="spanUrbanidad">Urbanidad</span>
+						<img src="http://mundovilla.com/uploads/1727276125.0.jpg" />
+					</figure>
+					<p>Buenos Aires 22 de Agosto de 2013 - Los vecinos de diferente villas pertenecientes a la Corriente Villera Independiente  continúan acampando en las...</p>
+					<button><span class="icon-arrow-new"></span></button>
+				</div>
+			</div>			
+			<div class="modElement">
+				<div class="modBanner">
+					<img class="elementBanner" height="89" src="img/banners/cultura.png" style="display:inline-block; width:100%">
+				</div>
+			</div>
+			<div class="modElement">
+				<div class="elementNoticia">
+					<h2>Continúa el acampe por vecinos de diferentes villas en Edesur y Edenor</h2>
+					<figure>
+						<span class="spanUrbanidad">Urbanidad</span>
+						<img src="http://mundovilla.com/uploads/1959020143.0.jpg" />
+					</figure>
+					<p>Buenos Aires 22 de Agosto de 2013 - Los vecinos de diferente villas pertenecientes a la Corriente Villera Independiente  continúan acampando en las oficinas de Edesur y Edenor para denunciar "constantes cortes de luz" en villas y "muertes ocasionadas" por deficiencias en el servicio.</p>
+					<button><span class="icon-arrow-new"></span></button>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+	<footer>
+		<figure><img src="img/mundo-villa-footer.png"></figure>
+		<nav>
+			<ul class="navSitio">
+				<li>Cultura  <span>■</span></li>
+				<li>Deportes<span>■</span></li>
+				<li>Urbanización<span>■</span></li>
+				<li>Salud<span>■</span></li>
+				<li>Sociedad<span>■</span></li>
+				<li>Colectividades<span>■</span></li>
+				<li>Perfil<span>■</span></li>
+				<li>Opnión<span>■</span></li>
+				<li>Multimedia</li>
+			</ul>
+			<ul class="navVillas">
+				<li>Villa 31 - Retiro<span>■</span></li>
+				<li>Villa 21 - Barracas<span>■</span></li>
+				<li>Rodrigo Bueno<span>■</span></li>
+				<li>Villa 20 - Villa Lugano<span>■</span></li>
+				<li>Ciudad Oculta</li>
+				<li>Villa 1/11/14 Bajo Flores<span>■</span></li><br />
+				<li>Villa Soldatti<span>■</span></li>
+				<li>Villa 19<span>■</span></li>
+				<li>Los Piletones<span>■</span></li>
+				<li>La Cava<span>■</span></li>
+				<li>Conventillos de La Boca</li>
+			</ul>
+			<ul class="navRedesSociales">
+				<li class="redesTwitter">#mundo_villa</li>
+				<li class="redesFacebook">/mundivilla</li>
+				<li class="redesEmail">info@mundovilla.com</li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>
